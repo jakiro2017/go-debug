@@ -6,6 +6,8 @@ Debugging golang code on docker container with VSCode (delve)
 - [Docker Compose](https://docs.docker.com/compose/install/)
 
 ## Instalation
+On host computer need go 1.12 (hint: use gvm) then install 
+`go get github.com/go-delve/delve/cmd/dlv`
 ### Clone
 Cloning go-debug repository.
 ```shell
